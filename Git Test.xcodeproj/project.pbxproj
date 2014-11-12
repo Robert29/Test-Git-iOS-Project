@@ -14,6 +14,7 @@
 		FA6B0E3A1A13512C00B1615F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6B0E391A13512C00B1615F /* Images.xcassets */; };
 		FA6B0E3D1A13512C00B1615F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6B0E3B1A13512C00B1615F /* LaunchScreen.xib */; };
 		FA6B0E491A13512C00B1615F /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6B0E481A13512C00B1615F /* Git_TestTests.m */; };
+		FA6B0E541A13556200B1615F /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6B0E531A13556200B1615F /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FA6B0E421A13512C00B1615F /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6B0E471A13512C00B1615F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA6B0E481A13512C00B1615F /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FA6B0E521A13556200B1615F /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		FA6B0E531A13556200B1615F /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		FA6B0E201A13512C00B1615F = {
 			isa = PBXGroup;
 			children = (
+				FA6B0E521A13556200B1615F /* Test.h */,
+				FA6B0E531A13556200B1615F /* Test.m */,
 				FA6B0E2B1A13512C00B1615F /* Git Test */,
 				FA6B0E451A13512C00B1615F /* Git TestTests */,
 				FA6B0E2A1A13512C00B1615F /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6B0E351A13512C00B1615F /* ViewController.m in Sources */,
+				FA6B0E541A13556200B1615F /* Test.m in Sources */,
 				FA6B0E321A13512C00B1615F /* AppDelegate.m in Sources */,
 				FA6B0E2F1A13512C00B1615F /* main.m in Sources */,
 			);
